@@ -1,0 +1,34 @@
+<!-- 
+<h1 class="h1
+" style="text-align: center;
+            text-decoration: solid;
+            color: aqua;">
+    Please Enter 
+    <button class="btn btn-primary" routerLink="/menu">Login!</button>
+</h1> -->
+
+<mat-card>
+    <mat-card-title>Login</mat-card-title>
+<mat-card-content>
+<form >
+  <p>
+    <mat-form-field>
+      <input type="text" matInput placeholder="Username" formControlName="username">
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field>
+      <input type="password" matInput placeholder="Password" formControlName="password">
+    </mat-form-field>
+  </p>
+
+
+
+  <div class="button">
+    <button type="submit" mat-button routerLink="/menu">Login</button>
+  </div>
+
+</form>
+</mat-card-content>
+</mat-card>
